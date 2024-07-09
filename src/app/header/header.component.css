@@ -1,0 +1,49 @@
+div {
+  text-align: center; /* Allinea il contenuto al centro */
+  padding: 20px; /* Padding interno */
+}
+
+/* Stile per l'intestazione dell'app */
+.app-header {
+  background-color: #a50000dd; /* Colore di sfondo */
+  color: #fff; /* Colore del testo */
+  padding: 20px; /* Padding interno */
+  border-radius: 8px; /* Bordo arrotondato */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombra */
+}
+
+/* Stile per il titolo del blog */
+.app-header h1 {
+  margin: 0; /* Rimuove il margine */
+  font-size: 2.5em; /* Dimensione del titolo */
+}
+
+/* Stile per l'immagine */
+.app-header img {
+  max-width: 300px; /* Dimensione massima dell'immagine */
+  border-radius: 50%; /* Bordo circolare */
+  margin-top: 10px; /* Spazio sopra l'immagine */
+}
+
+/* Stile per il sottotitolo del blog */
+.app-header p {
+  margin: 10px 0; /* Spaziatura sopra e sotto */
+  font-size: 1.2em; /* Dimensione del testo */
+}
+
+/* Stile per i link di navigazione */
+.app-header a {
+  display: inline-block;
+  margin: 5px; /* Spaziatura tra i link */
+  padding: 8px 16px; /* Padding dei link */
+  color: #000000; /* Colore del testo */
+  text-decoration: none; /* Rimuove il sottolineato */
+  background-color: #ffffff; /* Colore di sfondo */
+  border-radius: 5px; /* Bordo arrotondato */
+  transition: background-color 0.3s ease; /* Transizione colore di sfondo */
+}
+
+/* Stile al passaggio del mouse sui link */
+.app-header a:hover {
+  background-color: #004085; /* Cambia colore di sfondo al passaggio del mouse */
+}
